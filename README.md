@@ -28,7 +28,8 @@ The Strength depends on the score of the password ranging from 0-3, 0 meaning th
 Because we're estimating the size of the character set the password could be using, to figure out how many possible characters the password could contain, based on the character types it includes.
 
 # Example
-Let’s say your password is:  "Ab3#".\n
+Let’s say your password is:  "Ab3#"
+
 So, the Character types used:
 
 - A → uppercase → +26
