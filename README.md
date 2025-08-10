@@ -22,14 +22,13 @@ The script uses three criteria to evaluate a password:
 | 3     | Strong   |
 | 2     | Moderate |
 | 0–1   | Weak     |
-- The Strength depends on the score of the password ranging from 0-3, 0 meaning the weakest and 3 meaning the strongest passwd.
+The Strength depends on the score of the password ranging from 0-3, 0 meaning the weakest and 3 meaning the strongest passwd.
 
 ## Why to calculate Entropy?
-Because we're estimating the size of the character set the password could be using.
-We're trying to figure out how many possible characters the password could contain, based on the character types it includes.
+Because we're estimating the size of the character set the password could be using, to figure out how many possible characters the password could contain, based on the character types it includes.
 
 # Example
-Let’s say your password is:  "Ab3#"
+Let’s say your password is:  "Ab3#".\n
 So, the Character types used:
 
 - A → uppercase → +26
